@@ -1,6 +1,5 @@
 {
   // Problem 1:
-
   const sumArray = (sumNumber: number[]) => {
     // return sumNumber;
     return sumNumber.reduce((sum, currentNumber) => sum + currentNumber, 0);
